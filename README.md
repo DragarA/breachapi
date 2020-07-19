@@ -19,11 +19,6 @@ To set up the API, you have to follow these steps:
 
 Use cases: 
 query for breached emails:
-▪ HTTP GET /brechedemails/user@geneplanet.com
-▪ Expected responses: NotFound or OK
-o add a breached email
-▪ HTTP POST /brechedemails/
-▪ Expected responses: Created or Conflict
-o remove the breached email
-▪ HTTP DELETE /brechedemails/user@geneplanet.com
-▪ Expected responses: Ok
+-  HTTP GET /brechedemails/user@geneplanet.com Expected responses: NotFound or OK
+- add a breached email HTTP POST /brechedemails/ Expected responses: Created or Conflict
+- remove the breached email: HTTP DELETE /brechedemails/user@geneplanet.com Expected responses: Ok
