@@ -1,4 +1,7 @@
 # breachapi
+The API is based on https://haveibeenpwned.com/
+It supports request for checking, if an email address is present in the breached address database. 
+
 The solution consists of 3 projects: 
 - BreachApi: The main application 
 - BreachApi.IntegrationTest: The integration tests for API (sends Http requests and validates the results)
